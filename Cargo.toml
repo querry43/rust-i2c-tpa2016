@@ -1,0 +1,24 @@
+[package]
+name = "i2c-tpa2016"
+version = "0.1.0"
+description = "i2c interface for a TPA2016 audio amplifier (https://www.adafruit.com/product/1712)"
+license = "MIT"
+readme = "README.md"
+authors = ["Matt Harrington <querry43@gmail.com>"]
+repository = "https://github.com/querry43/rust-i2c-tpa2016"
+homepage = "https://github.com/querry43/rust-i2c-tpa2016"
+documentation = "https://github.com/querry43/rust-i2c-tpa2016/blob/master/README.md"
+build = "build.rs"
+
+[badges]
+travis-ci = { repository = "querry43/rust-i2c-tpa2016"}
+
+[dependencies]
+i2cdev = "~0.3.1"
+log = "0.4.2"
+
+[build-dependencies]
+skeptic = "0.13"
+
+[dev-dependencies]
+skeptic = "0.13"
